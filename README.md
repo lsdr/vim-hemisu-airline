@@ -22,9 +22,12 @@ cd ~/.vim/bundle
 git clone https://github.com/lsdr/vim-airline-hemisu.git
 ```
 
-#### Setting up
+#### Troubleshooting
 
-Add `let g:airline_theme = 'hemisu'` to your vimrc.
+`vim-airline` should correctly guess the name of the theme and apply it
+_automagically_, requiring no extra conf.
+
+If this does not happen, add `let g:airline_theme = 'hemisu'` to your `.vimrc`.
 
 ### License:
 
