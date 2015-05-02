@@ -1,22 +1,22 @@
 " Normal mode
-let s:N1 = [ '#eeeeee' , '#FF0055' , 16 , 197]
-let s:N2 = [ '#eeeeee' , '#000000' , 15 , 16 ]
-let s:N3 = [ '#000000' , '#ffffff' , 16 , 15 ]
+let s:N1 = [ '#ffffff' , '#FF0055' , 16 , 197]
+let s:N2 = [ '#ffffff' , '#000000' , 15 , 16 ]
+let s:N3 = [ '#000000' , '#eeeeee' , 16 , 15 ]
 
 " Insert mode
-let s:I1 = [ '#eeeeee' , '#FF4000' , 16 , 202]
-let s:I2 = [ '#eeeeee' , '#000000' , 15 , 16 ]
-let s:I3 = [ '#000000' , '#ffffff' , 16 , 15 ]
+let s:I1 = [ '#ffffff' , '#FF4000' , 16 , 202]
+let s:I2 = [ '#ffffff' , '#000000' , 15 , 16 ]
+let s:I3 = [ '#000000' , '#eeeeee' , 16 , 15 ]
 
 " Visual mode
 let s:V1 = [ '#000000' , '#4EB4FA' , 16 , 38 ]
-let s:V2 = [ '#eeeeee' , '#000000' , 15 , 16 ]
-let s:V3 = [ '#000000' , '#ffffff' , 16 , 15 ]
+let s:V2 = [ '#ffffff' , '#000000' , 15 , 16 ]
+let s:V3 = [ '#000000' , '#eeeeee' , 16 , 15 ]
 
 " Replace mode
-let s:R1 = [ '#eeeeee' , '#005F87' , 15 , 24 ]
-let s:R2 = [ '#eeeeee' , '#000000' , 15 , 16 ]
-let s:R3 = [ '#000000' , '#ffffff' , 16 , 15 ]
+let s:R1 = [ '#ffffff' , '#005F87' , 15 , 24 ]
+let s:R2 = [ '#ffffff' , '#000000' , 15 , 16 ]
+let s:R3 = [ '#000000' , '#eeeeee' , 16 , 15 ]
 
 let g:airline#themes#hemisu_airline#palette = {}
 let g:airline#themes#hemisu_airline#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -25,8 +25,8 @@ let g:airline#themes#hemisu_airline#palette.visual = airline#themes#generate_col
 let g:airline#themes#hemisu_airline#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 " Inactive mode
-let s:IN1 = [ '#eeeeee' , '#777777' , 15 , 16 ]
-let s:IN2 = [ '#eeeeee' , '#ffffff' , 15  , 16 ]
+let s:IN1 = [ '#ffffff' , '#777777' , 15 , 16 ]
+let s:IN2 = [ '#ffffff' , '#eeeeee' , 15  , 16 ]
 
 let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#hemisu_airline#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
